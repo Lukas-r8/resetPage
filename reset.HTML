@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Reset Password</title>
+    <link rel="stylesheet" href="./stylesheet.css">
+  </head>
+  <body>
+    <h1>Reset your password</h1>
+    <div class="container">
+      <form method="post">
+        <h3>New password:</h3>
+        <input class="center-element" type="password" placeholder="Type your new password here">
+        <h3>Confirm: </h3>
+        <input class="center-element" type="password" placeholder="Confirm your password here">
+        <button type="button" name="button" onclick="sendForm()">Change Password</button>
+      </form>
+    </div>
+    <p id="serverMessage"></p>
+    <script type="text/javascript" src="./app.js"></script>
+  </body>
+</html>
